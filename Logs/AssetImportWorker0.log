@@ -451,3 +451,4 @@ Received Import Request.
 Start importing Assets/Art/Sprites/Characters/MrClockworkSheet.png using Guid(651c4abeb0812e74685da0e5a31c8dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b3e4fed2d81b282848c5287c5b6f3d') in 0.053542 seconds 
   Import took 0.055541 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
