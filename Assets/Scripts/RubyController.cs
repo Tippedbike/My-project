@@ -18,7 +18,7 @@ public class RubyController : MonoBehaviour
     void Start()
     {
        rigidbody2d = GetComponent<Rigidbody2D>(); 
-
+       currentHealth = 1;
        currentHealth = maxHealth;
     }
 
@@ -31,12 +31,12 @@ public class RubyController : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 position = transform.position;
-        position.x = position.x + 5.0f * horizontal * Time.deltaTime;
-        position.y = position.y + 5.0f * vertical * Time.deltaTime;
+        position.x = position.x + speed * horizontal * Time.deltaTime;
+        position.y = position.y + speed * vertical * Time.deltaTime;
         rigidbody2d.MovePosition(position);
     } 
 
-    void ChangeHealth(int amount)
+    public void ChangeHealth(int amount)
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
