@@ -59463,6 +59463,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 642845502087349122, guid: 64c0cd996ebbd4bccb00ae53630735ad, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 642845502087349122, guid: 64c0cd996ebbd4bccb00ae53630735ad, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 642845502087349125, guid: 64c0cd996ebbd4bccb00ae53630735ad, type: 3}
       propertyPath: m_Name
       value: rob bot
