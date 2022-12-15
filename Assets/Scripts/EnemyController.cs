@@ -31,6 +31,12 @@ public class EnemyController : MonoBehaviour
             direction = -direction;
             timer = changeTime;
         }
+        if(!broken)
+{
+    return;
+}
+        
+     
     }
     void FixedUpdate()
     {
@@ -50,6 +56,16 @@ public class EnemyController : MonoBehaviour
         }
         
         rigidbody2D.MovePosition(position);
+
+if(!broken)
+{
+    return;
+}
+public void Fix()
+{
+    broken = false;
+    rigidbody2D.simulated = false;
+}
     }
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -60,4 +76,5 @@ public class EnemyController : MonoBehaviour
             player.ChangeHealth(-1);
         }
     }
+   
 }
