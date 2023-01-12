@@ -14,10 +14,10 @@ public class EnemyController : MonoBehaviour
     Rigidbody2D rigidbody2D;
     float timer;
     int direction = 1;
+     bool broken = true;
 
     Animator animator;
 
-    bool broken = true;
     
     // Start is called before the first frame update
     void Start()
