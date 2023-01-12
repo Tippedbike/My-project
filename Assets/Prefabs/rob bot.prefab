@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 642845502087349123}
   - component: {fileID: 642845502087349124}
   - component: {fileID: 43252446922825716}
+  - component: {fileID: 1185122916}
   m_Layer: 0
   m_Name: rob bot
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 642845502087349125}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.131, y: 1.927, z: 0}
-  m_LocalScale: {x: 0.82418245, y: 1.0260365, z: 1}
+  m_LocalScale: {x: 0.89579797, y: 1.0260365, z: 1}
   m_Children:
   - {fileID: 795332213674119754}
   m_Father: {fileID: 0}
@@ -99,7 +100,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012897551, y: -0.7459391}
+  m_Offset: {x: 0.012897551, y: 0.55}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -152,6 +153,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1185122916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642845502087349125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e38e8be5451422f85142073d754dc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  vertical: 0
+  changeTime: 3
+  smokeEffect: {fileID: 795332213674119753}
 --- !u!1001 &5748238007249283587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -165,15 +182,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4957423516128819273, guid: e61779c6d2bd14888aa5cd1c3327b361, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.297022
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4957423516128819273, guid: e61779c6d2bd14888aa5cd1c3327b361, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.3792667
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4957423516128819273, guid: e61779c6d2bd14888aa5cd1c3327b361, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1979.2678
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4957423516128819273, guid: e61779c6d2bd14888aa5cd1c3327b361, type: 3}
       propertyPath: m_LocalRotation.w
@@ -203,6 +220,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4957423516128819274, guid: e61779c6d2bd14888aa5cd1c3327b361, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4957423516128819316, guid: e61779c6d2bd14888aa5cd1c3327b361, type: 3}
       propertyPath: m_Name
       value: Particle System
@@ -212,5 +233,10 @@ PrefabInstance:
 --- !u!4 &795332213674119754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4957423516128819273, guid: e61779c6d2bd14888aa5cd1c3327b361, type: 3}
+  m_PrefabInstance: {fileID: 5748238007249283587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &795332213674119753 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4957423516128819274, guid: e61779c6d2bd14888aa5cd1c3327b361, type: 3}
   m_PrefabInstance: {fileID: 5748238007249283587}
   m_PrefabAsset: {fileID: 0}
