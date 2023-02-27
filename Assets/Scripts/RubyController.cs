@@ -63,9 +63,7 @@ public class RubyController : MonoBehaviour
         {
             Launch();
         }
-    }
-
-    if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X))
 {
     RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
     if (hit.collider != null)
@@ -73,6 +71,8 @@ public class RubyController : MonoBehaviour
         Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
     }
 }
+    }
+
     
     void FixedUpdate()
     {
