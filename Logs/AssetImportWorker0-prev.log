@@ -22,56 +22,56 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62906
+52743
 Successfully changed project path to: /Users/game1/My project
 /Users/game1/My project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game1/My project/Assets
 GfxDevice: creating device client; threaded=0
-2023-03-13 08:52:57.012 Unity[14258:587305] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2023-03-13 08:52:57.012 Unity[14258:587305] Metal devices available: 1
-2023-03-13 08:52:57.012 Unity[14258:587305] 0: AMD Radeon Pro 5500 XT (high power)
-2023-03-13 08:52:57.013 Unity[14258:587305] Using device AMD Radeon Pro 5500 XT (high power)
+2023-03-14 09:06:56.213 Unity[20066:787002] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2023-03-14 09:06:56.213 Unity[20066:787002] Metal devices available: 1
+2023-03-14 09:06:56.213 Unity[20066:787002] 0: AMD Radeon Pro 5500 XT (high power)
+2023-03-14 09:06:56.213 Unity[20066:787002] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56258
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56066
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000436 seconds.
+Registered in 0.000449 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 26.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.514 seconds
+- Completed reload, in  0.524 seconds
 Domain Reload Profiling:
-	ReloadAssembly (514ms)
-		BeginReloadAssembly (36ms)
+	ReloadAssembly (524ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (414ms)
-			LoadAssemblies (35ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (157ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (152ms)
+			SetupLoadedEditorAssemblies (154ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (27ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadAttributes (91ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -79,43 +79,43 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001597 seconds.
+Registered in 0.001593 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.935 seconds
+- Completed reload, in  0.963 seconds
 Domain Reload Profiling:
-	ReloadAssembly (936ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (750ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
+			SetupTypeCache (310ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (255ms)
+			SetupLoadedEditorAssemblies (259ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.002533 seconds.
+Validating Project structure ... 0.002349 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.009636 seconds.
+Upgrading shader files ...0.010244 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1757 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 190.9 MB.
 System memory in use after: 190.0 MB.
 
 Unloading 138 unused Assets to reduce memory usage. Loaded Objects now: 2233.
-Total: 2.550003 ms (FindLiveObjects: 0.119552 ms CreateObjectMapping: 0.048795 ms MarkObjects: 1.983168 ms  DeleteObjects: 0.397874 ms)
+Total: 2.626304 ms (FindLiveObjects: 0.124759 ms CreateObjectMapping: 0.051702 ms MarkObjects: 2.042861 ms  DeleteObjects: 0.406448 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,73 +150,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Audio/Art/Sprites/Environmnent/Materials/GrassSmall.mat
-  artifactKey: Guid(19946003daf1b45cb986756089169d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Art/Sprites/Environmnent/Materials/GrassSmall.mat using Guid(19946003daf1b45cb986756089169d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de893d0f2b0ff13e8faf66b6773ae0c') in 0.843012 seconds 
-  Import took 0.846784 seconds .
+  path: Assets/Prefabs/TreeLittle (6).prefab
+  artifactKey: Guid(89577edbda4184a5f9fcc07262980a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeLittle (6).prefab using Guid(89577edbda4184a5f9fcc07262980a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2109af97d28728b9f9f91afa12471b53') in 0.874649 seconds 
+  Import took 0.878807 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Audio/Art/Sprites/Environmnent/Materials/TelegraphPost.mat
-  artifactKey: Guid(2583bc6a8d121476fa92713dc82a1aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Art/Sprites/Environmnent/Materials/TelegraphPost.mat using Guid(2583bc6a8d121476fa92713dc82a1aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d827fe4b1bfa56d70668a427b7f4d8') in 0.014880 seconds 
-  Import took 0.017027 seconds .
+  Time since last request: 8.671975 seconds.
+  path: Assets/Prefabs/LotusFlower (5).prefab
+  artifactKey: Guid(b5a8f1e764ce1495f93e29187e8256ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LotusFlower (5).prefab using Guid(b5a8f1e764ce1495f93e29187e8256ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dad7b852733ca84fe799cbcd68ed7bc') in 0.008982 seconds 
+  Import took 0.011558 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Audio/Art/Sprites/Environmnent/Materials/TreeBig3.mat
-  artifactKey: Guid(70b126d5eebf44bd7bc38a058c6242bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Art/Sprites/Environmnent/Materials/TreeBig3.mat using Guid(70b126d5eebf44bd7bc38a058c6242bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34103d12f63d7c8d6f5ad2f2638d0d19') in 0.006147 seconds 
-  Import took 0.008533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Audio/Art/Sprites/Environmnent/Materials/DrainCover.mat
-  artifactKey: Guid(381da15510f874475beb00375aaa6116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Art/Sprites/Environmnent/Materials/DrainCover.mat using Guid(381da15510f874475beb00375aaa6116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb814137f209a858feef427cb742689c') in 0.007330 seconds 
-  Import took 0.009814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Audio/Art/Sprites/Environmnent/Materials/House.mat
-  artifactKey: Guid(f8331efc47d584990b691f0386f614de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Art/Sprites/Environmnent/Materials/House.mat using Guid(f8331efc47d584990b691f0386f614de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3dabf77d0813e6de7f392c370f64ee') in 0.008471 seconds 
-  Import took 0.010704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Audio/Art/Sprites/Environmnent/Materials/TreeBig1.mat
-  artifactKey: Guid(235c3bb8374f84e31a6cbda66c48a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Art/Sprites/Environmnent/Materials/TreeBig1.mat using Guid(235c3bb8374f84e31a6cbda66c48a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d7d83d1ab2f0f08303ae1a2ae583b3') in 0.007446 seconds 
-  Import took 0.009878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 357.318888 seconds.
-  path: Assets/Audio/Art/Sprites/Environmnent/Materials/LotusFlower.mat
-  artifactKey: Guid(2387ddb08355141219795d26995b7903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Art/Sprites/Environmnent/Materials/LotusFlower.mat using Guid(2387ddb08355141219795d26995b7903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6980274f32039fc26b3dc628718cf710') in 0.008250 seconds 
-  Import took 0.010795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Audio/Art/Sprites/Environmnent/Materials/TreeLittle.mat
-  artifactKey: Guid(1f324daa915824533a4bb83631477dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Art/Sprites/Environmnent/Materials/TreeLittle.mat using Guid(1f324daa915824533a4bb83631477dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c0b113d6d6cd4fe6cbca8fe15fae92') in 0.008179 seconds 
-  Import took 0.010487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Audio/Art/Sprites/Environmnent/Materials/Mushrooms.mat
-  artifactKey: Guid(40ee4fdd2524f4862adc48ce50de9fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Art/Sprites/Environmnent/Materials/Mushrooms.mat using Guid(40ee4fdd2524f4862adc48ce50de9fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944345a67d99f4115561e3626f5ae9b9') in 0.008357 seconds 
-  Import took 0.010628 seconds .
+  Time since last request: 121.010979 seconds.
+  path: Assets/Prefabs/TreeLittle (7).prefab
+  artifactKey: Guid(6a62297e6464642189d69a04db8429ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeLittle (7).prefab using Guid(6a62297e6464642189d69a04db8429ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db713f43d500396825847f75b87a0b95') in 0.007147 seconds 
+  Import took 0.009660 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
