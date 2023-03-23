@@ -6,6 +6,7 @@ public class NonPlayerCharacter : MonoBehaviour
 {
     public float displayTime = 4.0f;
     public GameObject dialogBox;
+    public GameObject rubyDialogBox; 
     float timerDisplay;
     
     void Start()
@@ -30,5 +31,17 @@ public class NonPlayerCharacter : MonoBehaviour
     {
         timerDisplay = displayTime;
         dialogBox.SetActive(true);
+        // Start //
+        StartCoroutine(DialogChain());
+    }
+    public void RubyDiaplayDialog()
+    {
+        timerDisplay = displayTime;
+        rubyDialogBox.SetActive(true);
+    }
+    IEnumerator DialogChain()
+    {
+        yield return new WairForSeconds(4);
+        RubyDiaplayDialog();
     }
 }
