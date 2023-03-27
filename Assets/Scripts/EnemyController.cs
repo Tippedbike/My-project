@@ -73,7 +73,7 @@ public class EnemyController : MonoBehaviour
 
         if (player != null)
         {
-            player.ChangeHealth(-1);
+            player.ChangeHealth(-3);
         }
        
     }
@@ -83,6 +83,7 @@ public class EnemyController : MonoBehaviour
         broken = false;
         rigidbody2D.simulated = false;
         smokeEffect.Stop();
+        animator.SetTrigger("Dance");
     }
    
 }

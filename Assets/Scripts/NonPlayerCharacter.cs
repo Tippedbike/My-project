@@ -23,6 +23,7 @@ public class NonPlayerCharacter : MonoBehaviour
             if (timerDisplay < 0)
             {
                 dialogBox.SetActive(false);
+                rubyDialogBox.SetActive(false);
             }
         }
     }
@@ -34,14 +35,14 @@ public class NonPlayerCharacter : MonoBehaviour
         // Start //
         StartCoroutine(DialogChain());
     }
-    public void RubyDiaplayDialog()
+    public void RubyDisplayDialog()
     {
         timerDisplay = displayTime;
         rubyDialogBox.SetActive(true);
     }
     IEnumerator DialogChain()
     {
-        yield return new WairForSeconds(4);
-        RubyDiaplayDialog();
+        yield return new WaitForSeconds(4);
+        RubyDisplayDialog();
     }
 }
