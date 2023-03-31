@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CopperController
     - DamageZone
     - DialogChain
     - EnemyController
@@ -133,8 +132,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2984}
     - Class: 114
       Script: {instanceID: 3004}
-    - Class: 114
-      Script: {instanceID: 3346}
     - Class: 114
       Script: {instanceID: 3496}
     - Class: 114
@@ -612,12 +609,6 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
-      Hash: 5542f3ae196faef513bb1cda3e74fb10
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CopperController
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -961,4 +952,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/MainScene.unity.unity
-  playerPath: /Users/game1/My project/zzzzzzzzz2.app
+  playerPath: /Users/game1/My project/2Rudy.x.app
